@@ -29,4 +29,4 @@ tags:
 </script>
 ```
 
-![ga_setting](/assets/img/GA_additional_setting.png "GA_setting")
+![ga_setting](/assets/img/GA_setting.png "GA_setting")
