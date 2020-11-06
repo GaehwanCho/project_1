@@ -35,8 +35,10 @@ $ git checkout <branch name>
 # create & switch branch
 $ git checkout -b <branch name>
 # delete branch
-$ git branch -d <branch name> // local
-$ git push origin --delete <branch name> // remote repo
+- local
+$ git branch -d <branch name>
+- remote repo
+$ git push origin --delete <branch name>
 ```
 
 # 3. git tips
