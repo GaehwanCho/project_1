@@ -1,0 +1,488 @@
+[0.568s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'list', '-p', '--base-paths', '/home/gaehwancho/Documents/github_blog/project_1']
+[0.568s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/gaehwancho/Documents/github_blog/project_1'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f1e9589e6d8>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f1e9589e6d8>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1e95877978>)
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.615s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gaehwancho/Documents/github_blog/project_1'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_data) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extension 'ros'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extensions ['cmake', 'python']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extension 'cmake'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extension 'python'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extensions ['python_setup_py']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes) by extension 'python_setup_py'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extension 'colcon_pkg'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extensions ['colcon_meta']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extension 'colcon_meta'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extension 'ros'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extensions ['cmake', 'python']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extension 'cmake'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extension 'python'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extensions ['python_setup_py']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/analytics-providers) by extension 'python_setup_py'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extension 'ros'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extensions ['cmake', 'python']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extension 'cmake'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extension 'python'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extensions ['python_setup_py']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/comments-providers) by extension 'python_setup_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extension 'ros'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extensions ['cmake', 'python']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extension 'cmake'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extension 'python'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extensions ['python_setup_py']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/footer) by extension 'python_setup_py'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extension 'ros'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extensions ['cmake', 'python']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extension 'cmake'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extension 'python'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extensions ['python_setup_py']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/head) by extension 'python_setup_py'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extension 'colcon_pkg'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_includes/search) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extension 'ignore_ament_install'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extensions ['colcon_pkg']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extension 'colcon_pkg'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extensions ['colcon_meta']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extension 'ros'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_layouts) by extension 'python_setup_py'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extension 'cmake'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extension 'python'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extensions ['python_setup_py']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_pages) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extension 'ros'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extensions ['cmake', 'python']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extension 'cmake'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extension 'python'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extensions ['python_setup_py']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_posts) by extension 'python_setup_py'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extension 'ros'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extensions ['cmake', 'python']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extension 'cmake'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extension 'python'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extensions ['python_setup_py']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass) by extension 'python_setup_py'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extension 'ros'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extensions ['cmake', 'python']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extension 'cmake'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extension 'python'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extensions ['python_setup_py']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes) by extension 'python_setup_py'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extensions ['cmake', 'python']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extension 'cmake'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extension 'python'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extensions ['python_setup_py']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/skins) by extension 'python_setup_py'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extensions ['cmake', 'python']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extension 'cmake'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extension 'cmake'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extension 'python'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extensions ['python_setup_py']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extension 'ros'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extensions ['cmake', 'python']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extension 'cmake'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extension 'python'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extensions ['python_setup_py']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extension 'ros'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extensions ['cmake', 'python']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extension 'cmake'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extension 'python'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extensions ['python_setup_py']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/double) by extension 'python_setup_py'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extension 'ros'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extensions ['cmake', 'python']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extension 'cmake'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extension 'python'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extensions ['python_setup_py']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/resolution) by extension 'python_setup_py'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extension 'ros'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extensions ['cmake', 'python']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extension 'cmake'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extension 'python'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extensions ['python_setup_py']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/single) by extension 'python_setup_py'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extension 'colcon_meta'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extensions ['ros']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extension 'ros'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extensions ['cmake', 'python']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extension 'cmake'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extension 'python'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extensions ['python_setup_py']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/breakpoint/parsers/triple) by extension 'python_setup_py'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extension 'ignore_ament_install'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extensions ['colcon_pkg']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extension 'colcon_pkg'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extensions ['colcon_meta']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extension 'colcon_meta'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extension 'ros'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extensions ['cmake', 'python']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extension 'cmake'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extension 'python'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extensions ['python_setup_py']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/magnific-popup) by extension 'python_setup_py'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extension 'ros'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extensions ['cmake', 'python']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extension 'cmake'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extension 'python'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extensions ['python_setup_py']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy) by extension 'python_setup_py'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extension 'ignore'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extensions ['ros']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extensions ['cmake', 'python']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extension 'cmake'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extension 'python'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extensions ['python_setup_py']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins) by extension 'python_setup_py'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extension 'ros'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extensions ['cmake', 'python']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extension 'cmake'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extension 'python'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extensions ['python_setup_py']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/plugins/svg-grid) by extension 'python_setup_py'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extension 'cmake'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extension 'python'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extensions ['python_setup_py']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/_sass/minimal-mistakes/vendor/susy/susy) by extension 'python_setup_py'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extension 'ros'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extension 'cmake'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extension 'python'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extensions ['python_setup_py']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extension 'ros'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extensions ['cmake', 'python']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extension 'cmake'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extension 'python'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extensions ['python_setup_py']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/css) by extension 'python_setup_py'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extension 'ros'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extensions ['cmake', 'python']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extension 'cmake'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extension 'python'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extensions ['python_setup_py']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/img) by extension 'python_setup_py'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extension 'ignore_ament_install'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extension 'ros'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extensions ['cmake', 'python']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extension 'cmake'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extension 'python'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extensions ['python_setup_py']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js) by extension 'python_setup_py'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extensions ['colcon_pkg']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extensions ['colcon_meta']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extension 'colcon_meta'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extensions ['ros']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extension 'ros'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extensions ['cmake', 'python']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extension 'cmake'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extension 'python'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extensions ['python_setup_py']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/lunr) by extension 'python_setup_py'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extension 'colcon_meta'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extensions ['ros']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extension 'ros'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extensions ['cmake', 'python']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extension 'cmake'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extension 'python'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extensions ['python_setup_py']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/plugins) by extension 'python_setup_py'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extension 'ros'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extensions ['cmake', 'python']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extension 'cmake'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extension 'python'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extensions ['python_setup_py']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor) by extension 'python_setup_py'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extension 'ros'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extensions ['cmake', 'python']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extension 'cmake'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extension 'python'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extensions ['python_setup_py']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/assets/js/vendor/jquery) by extension 'python_setup_py'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/log) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/log) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(/home/gaehwancho/Documents/github_blog/project_1/log) ignored
+[0.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

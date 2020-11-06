@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Category"
+    url: /category/
+  - title: "Archive"
+    url: /archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
