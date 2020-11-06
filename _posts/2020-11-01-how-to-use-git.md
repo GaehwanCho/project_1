@@ -23,6 +23,22 @@ $ git commit -m "commit test"
 $ git push -m origin master
 ```
 
+## create / delete branch
+
+```bash
+# branch status
+$ git branch
+# create branch
+$ git branch <branch name>
+# switch branch
+$ git checkout <branch name>
+# create & switch branch
+$ git checkout -b <branch name>
+# delete branch
+$ git branch -d <branch name> // local
+$ git push origin --delete <branch name> // remote repo
+```
+
 # 3. git tips
 
 ## save git id/pw
