@@ -20,7 +20,7 @@ $ git status
 ```bash
 $ git add .
 $ git commit -m "commit test"
-$ git push -m origin master
+$ git push -u origin master // push to master branch
 ```
 
 ## create / delete branch
