@@ -3,8 +3,7 @@ title: "How to apply google analytics to github blog?"
 categories: tool
 tags:
   - google analytics
-  - github
-  - blog
+  - github blog
 ---
 
 1. create account & property
@@ -30,4 +29,4 @@ tags:
 </script>
 ```
 
-![ga_setting](https://gyehwancho.github.io/project_1/assets/img/GA_additional_setting.png "GA_setting")
+![ga_setting](/assets/img/GA_additional_setting.png "GA_setting")
