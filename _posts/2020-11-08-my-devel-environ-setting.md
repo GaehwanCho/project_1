@@ -1,4 +1,5 @@
 ---
+title: "my development environment setting"
 categories:
 - etc
 tags:
@@ -6,9 +7,10 @@ tags:
 - vscode
 ---
 Here is my development environment setting script below.
+This setting is based on Ubuntu 20.04.
 
 ```bash
-!/bin/bash
+#!/bin/bash
 
 sudo apt update -y
 sudo apt dist-upgrade -y
@@ -47,5 +49,5 @@ echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
 echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
 echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
-gem install jekyll bundler #error나면 터미널 refresh
+gem install jekyll bundler #error -> terminal refresh
 ```
