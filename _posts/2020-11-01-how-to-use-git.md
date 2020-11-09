@@ -15,6 +15,25 @@ toc: true
 $ git status
 ```
 
+## pull
+
+- git fetch & git pull  
+  `git fetch` is different from `git pull`.  
+  `git fetch` receive the latest code of remote repo origin/master.  
+  `git pull` performs both function of `git fetch` and `git merge`.
+  If you would like to check difference from local to remote, type `git diff HEAD origin/master`.  
+  If you want to check commit log, type `git log --decorate --all --oneline`.
+
+```bash
+# receive latest code & merge
+$ git pull
+
+# receive latest code
+$ git fetch
+# merge local & remote
+$ git merge origin/master
+```
+
 ## push
 
 ```bash
@@ -28,12 +47,16 @@ $ git push -u origin master // push to master branch
 ```bash
 # branch status
 $ git branch
+
 # create branch
 $ git branch <branch name>
+
 # switch branch
 $ git checkout <branch name>
+
 # create & switch branch
 $ git checkout -b <branch name>
+
 # delete branch
 - local
 $ git branch -d <branch name>
