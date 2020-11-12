@@ -3,6 +3,7 @@ categories: tool
 tags:
   - git
 toc: true
+sidebar_main: true
 ---
 
 # 1. git basic
