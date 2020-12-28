@@ -37,12 +37,19 @@ $ docker images
 
 ## pytorch image로 container 올리기
 ```bash
-$ sudo docker run -it --name pytorch -v /home/chogaehwan/docker_share/pytorch/:/root/share -p 8888:8888 pytorch/pytorch
+$ sudo docker run -itd --name pytorch -v /home/chogaehwan/docker_share/pytorch/:/root/share ---gpus all p 8888:8888 pytorch/pytorch
 # --gpus all GPU리소스에 접근가능하게
 # --restart=always 옵션을 주면 local이 restart될때 docker이미지도 올라가있음
 ```
 -v : `<local_folder>:<container_folder>` 로 폴더를 공유한다.   
 -p : `<local port>:<container port>`에 연결한다
+
+## jupyter 접속하기
+```bash
+$ conda install jupyter
+# share폴더에 접속이후
+$ jupyter notebook --ip:0.0.0.0 --port:8888 --allow-root
+```
 
 # 3. Docker image save
 ```
