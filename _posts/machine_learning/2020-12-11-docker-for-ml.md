@@ -48,7 +48,7 @@ $ sudo docker run -itd --name pytorch -v /home/chogaehwan/docker_share/pytorch/:
 ```bash
 $ conda install jupyter
 # share폴더에 접속이후
-$ jupyter notebook --ip:0.0.0.0 --port:8888 --allow-root
+$ jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
 ```
 
 # 3. Docker image save
