@@ -37,7 +37,7 @@ $ docker images
 
 ## pytorch image로 container 올리기
 ```bash
-$ sudo docker run -itd --name pytorch -v /home/chogaehwan/docker_share/pytorch/:/root/share ---gpus all p 8888:8888 pytorch/pytorch
+$ sudo docker run -itd --name pytorch -v /home/chogaehwan/docker_share/pytorch/:/root/share ---gpus all -p 8888:8888 pytorch/pytorch
 # --gpus all GPU리소스에 접근가능하게
 # --restart=always 옵션을 주면 local이 restart될때 docker이미지도 올라가있음
 ```
